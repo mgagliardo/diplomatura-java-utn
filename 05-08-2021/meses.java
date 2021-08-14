@@ -1,4 +1,7 @@
+// Programa que tome un input (del 1 al 12) e imprima el mes correspondiente en pantalla
+
 import java.util.Scanner;
+
 public class MyClass {
     public static void main(String args[]) {
 
