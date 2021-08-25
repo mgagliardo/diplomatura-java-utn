@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Meses {
     public static void main(String args[]) {
         System.out.println ("Ingrese un mes (de 1 a 12): ");
-
         String mesElegido = "";
         Scanner input = new Scanner(System.in);
         int mesIntroducido = input.nextInt();
@@ -64,7 +63,10 @@ public class Meses {
                 System.out.println("Ingrese un mes correcto, del 1 al 12");
                 break;
         }
-      
-      System.out.println("El mes introducido fue " + mesElegido + ".");
+
+        if (mesElegido != "") {
+            System.out.println("El mes introducido fue " + mesElegido + ".");
+        }
+
     }
 }
