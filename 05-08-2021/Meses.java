@@ -2,15 +2,14 @@
 
 import java.util.Scanner;
 
-public class MyClass {
+public class Meses {
     public static void main(String args[]) {
-
-
         System.out.println ("Ingrese un mes (de 1 a 12): ");
 
         String mesElegido = "";
         Scanner input = new Scanner(System.in);
         int mesIntroducido = input.nextInt();
+        input.close();
 
         switch(mesIntroducido) {
             case 1:
@@ -67,6 +66,5 @@ public class MyClass {
         }
       
       System.out.println("El mes introducido fue " + mesElegido + ".");
-      
     }
 }
