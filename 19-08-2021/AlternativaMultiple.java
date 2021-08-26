@@ -1,5 +1,3 @@
-// Diseñar un algoritmo que devuelva el nombre de la semana, a partir de un número ingresado por el usuario
-
 import java.util.Scanner;
 
 public class AlternativaMultiple {

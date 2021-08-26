@@ -1,5 +1,3 @@
-// Programa que toma un input (int) e imprime si el numero ingresado es par o no
-
 import java.util.Scanner;
 
 public class EsPar {
