@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class AlternativaMultiple {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         System.out.println ("Ingrese un numero del 1 al 7: ");
         Scanner input = new Scanner(System.in);
         int numeroIntroducido = input.nextInt();

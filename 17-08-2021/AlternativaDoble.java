@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class AlternativaDoble {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println ("Ingrese monto de la compra: ");
         double monto = input.nextDouble();

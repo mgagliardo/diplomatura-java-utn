@@ -1,5 +1,5 @@
 public class Fibonacci {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int contadorFibo = 10;
         int fibo = 0;
         int i = 1;
