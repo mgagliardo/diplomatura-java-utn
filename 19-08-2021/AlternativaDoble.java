@@ -1,23 +1,20 @@
 import java.util.Scanner;
 
-public class EsPar {
+public class AlternativaDoble {
     public static void main(String args[]) {
-
         Scanner input = new Scanner(System.in);
-        System.out.println ("Ingrese cantidad de bancos en el aula: ");
-        int bancosIntroducidos = input.nextInt();
-
-        System.out.println ("Ingrese cantidad de alumnos inscriptos: ");
-        int alumnosInscriptos = input.nextInt();
+        System.out.println ("Ingrese monto de la compra: ");
+        double monto = input.nextDouble();
+        System.out.println ("Ingrese tipo de pago: ");
+        String tipoDePago = input.next();
         input.close();
 
-        int alcanzan = alumnosInscriptos - bancosIntroducidos;
+        if (tipoDePago.equals("contado")) {
+            monto = monto * 0.9;
+        } else {
+            System.out.println("No hay un descuento para el tipo de pago seleccionado.");
+        }
 
-        if (alcanzan > 0) {
-            System.out.println("a cantidad de bancos faltantes es: " + alcanzan);
-        }
-        else {
-            System.out.println("os bancos del aula son suficientes");
-        }
+        System.out.println("El pago final es de: $" + monto);
     }
 }
